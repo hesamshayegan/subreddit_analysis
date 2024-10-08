@@ -26,7 +26,7 @@ This project uses Python libraries like Matplotlib, Seaborn, NumPy, and Pandas t
 - Key Findings (Figure 2):
      - Interestingly, two of the top-performing posts (images) were posted during the summer of 2020, in the early months of the COVID-19 pandemic.
     - This suggests a potential correlation between pandemic-related events and user engagement on certain types of content (e.g., humor and memes).
-## Conclustion
+## Conclusion
 By identifying and analyzing breakout posts through Z-score normalization and time-based content analysis, the project reveals that categories like memes, pics, and movies stand out as consistent top performers. Additionally, historical context (like the COVID-19 pandemic) played a role in driving higher engagement in specific periods.
 
 This analysis highlights what (content type), when (timeframe), and where (category) breakout posts are most likely to occur.
