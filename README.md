@@ -26,8 +26,19 @@ This project uses Python libraries like Matplotlib, Seaborn, NumPy, and Pandas t
 - Key Findings (Figure 2):
      - Interestingly, two of the top-performing posts (images) were posted during the summer of 2020, in the early months of the COVID-19 pandemic.
     - This suggests a potential correlation between pandemic-related events and user engagement on certain types of content (e.g., humor and memes).
+
+3. Heatmap Analysis (heatmap_analysis.py)
+
+- Objective: Visualize the distribution of normalized scores across different years and months, focusing on high-performing categories (memes, pics, movies).
+- Method:
+    - A heatmap was created to display the normalized scores of posts by year and month.
+    - Scores were normalized, and the heatmap helped identify trends over time for each category.
+- Key Findings (Figure 3):
+    - The highest normalized scores for memes, pics, and movies were observed in 2020.
+    - This year saw exceptional engagement across these categories, with clear spikes in post activity, especially in the summer months.
+    - The 2020 surge aligns with global events, potentially indicating a correlation between heightened online activity and the types of content users engaged with during that period.
 ## Conclusion
-By identifying and analyzing breakout posts through Z-score normalization and time-based content analysis, the project reveals that categories like memes, pics, and movies stand out as consistent top performers. Additionally, historical context (like the COVID-19 pandemic) played a role in driving higher engagement in specific periods.
+By identifying and analyzing breakout posts through Z-score normalization, time-based content and heatmap analyses, the project reveals that categories like memes, pics, and movies stand out as consistent top performers. Additionally, historical context (like the COVID-19 pandemic) played a role in driving higher engagement in specific periods.
 
 This analysis highlights what (content type), when (timeframe), and where (category) breakout posts are most likely to occur.
 
@@ -36,3 +47,6 @@ This analysis highlights what (content type), when (timeframe), and where (categ
 
 #### Figure 2
 ![Content Analysis](img/content_analyis_plot.png "content_analysis")
+
+#### Figure 3
+![Content Analysis](img/heatmap_normalized_scores_memes.png "heatmap_analysis")
